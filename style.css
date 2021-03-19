@@ -1,0 +1,82 @@
+body {
+  background-color: ;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-family: sans-serif;
+  background-image: linear-gradient(#615dad, #ffc8da);
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+.kriskros {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #999;
+  background-color: #283e50;
+  border-radius: 10px 10px 0 0;
+}
+
+.hlavicka {
+  width: 100%;
+}
+
+.uvodni {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.obsah {
+  padding: 20px;
+}
+/*------------*/
+
+.tlacitka {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.pravidla {
+  background-color: #1fcca4;
+  flex-basis: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.zacitHrat {
+  background-color: #0197f6;
+}
+
+
+.tlacitka a {
+  text-decoration: none;
+  color: #ffffff;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #283e50;
+  width: 100%;
+}
+
+
+
+
+.pravidla :hover,
+.pravidla :focus,
+.pravidla :active {
+  background-color: #1cbb96;
+}
+
+.zacitHrat :hover,
+.zacitHrat :focus,
+.zacitHrat :active {
+  background-color: #0090e9;
+}
