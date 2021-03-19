@@ -1,22 +1,24 @@
 body {
-  background-color: ;
   text-align: center;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 100px;
   font-family: sans-serif;
   background-image: linear-gradient(#615dad, #ffc8da);
+  background-size: 100vw 100vh;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+p {
+  line-height: 1.4;
 }
 
 .kriskros {
   width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin: 0 auto;
   box-shadow: 5px 5px 5px #999;
   background-color: #283e50;
@@ -35,39 +37,28 @@ h1 {
 .obsah {
   padding: 20px;
 }
-/*------------*/
-
-.tlacitka {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-
 
 .pravidla {
-  background-color: #1fcca4;
-  flex-basis: 100%;
-  height: 40px;
-  display: flex;
+  background-color: #1fcca4; 
+  border-bottom: 1px solid #283e50;
 }
 
 .zacitHrat {
   background-color: #0197f6;
 }
 
-
-.tlacitka a {
+a {
   text-decoration: none;
   color: #ffffff;
-  height: 40px;
   text-align: center;
-  border: 1px solid #283e50;
-  width: 100%;
+  padding: 15px;
+  display: block;
+  font-size: 17px;
 }
 
-
-
+/* .pravidla a {
+  padding: 15px 118px;
+} */
 
 .pravidla :hover,
 .pravidla :focus,
