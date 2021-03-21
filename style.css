@@ -39,7 +39,7 @@ p {
 }
 
 .pravidla {
-  background-color: #1fcca4; 
+  background-color: #1fcca4;
   border-bottom: 1px solid #283e50;
 }
 
@@ -55,10 +55,6 @@ a {
   display: block;
   font-size: 17px;
 }
-
-/* .pravidla a {
-  padding: 15px 118px;
-} */
 
 .pravidla :hover,
 .pravidla :focus,
