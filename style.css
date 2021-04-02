@@ -18,7 +18,7 @@ p {
 }
 
 .kriskros {
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   box-shadow: 5px 5px 5px #999;
   background-color: #283e50;
@@ -66,4 +66,68 @@ a {
 .zacitHrat :focus,
 .zacitHrat :active {
   background-color: #0090e9;
+}
+
+
+/* CSS pro pravidla.html  */
+
+.pravidlaHry {
+  text-align: left;
+}
+
+li {
+  margin: 15px 0;
+}
+
+li img {
+  filter: invert(100%);
+  width: 1em; 
+  height: 1em;
+}
+
+
+.situace img {
+  width: 100%;
+}
+
+.situace {
+  margin-top: 40px;
+}
+
+figure figcaption {
+  font-style: italic;
+  margin-top: 8px;
+}
+
+figure  {
+  margin: 25px 0px;
+}
+
+body {
+  background-size: 100vw 500vh;
+}
+
+@media screen and (min-width: 640px) {
+  .kriskros {
+    width: 700px;
+  }
+
+  .situace {
+    display: flex; 
+    flex-wrap: wrap;   
+    justify-content: space-evenly; 
+  } 
+
+  figure {   
+    flex-basis: 45%; 
+    /* flex-basis: calc((100% - 50px) / 2);  jen pro mé info */  
+    flex-shrink: 1;
+    margin: 20px 10px;
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+  .kriskros {
+    width: 900px;
+  }
 }
