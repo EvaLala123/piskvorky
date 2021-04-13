@@ -131,3 +131,112 @@ body {
     width: 900px;
   }
 }
+
+/* CSS pro hru */
+
+.hra {
+  max-width: 80vmin;
+  /* background-size: 20vw 20vh; */
+  margin: auto;
+ 
+  background-size: 20vw 20vh;
+}
+
+.hra h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.zahlavi {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;  
+  margin: 20px auto;  
+  width: 60vmax;
+}
+
+.hraje {
+  height: 2em; 
+  display: flex;
+  align-items: baseline;  
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.zahlavi img {
+filter: invert(100%);
+width: 1em; 
+height: 1em;
+display: inline;
+margin-left: 5px;
+}
+
+.tlacitkaHra a {   
+  margin-left: 15px;
+  border-radius: 5px;
+  display: inline;  
+  padding: 10px;
+ }
+
+ .tlHome a {
+  background-color: #1fcca4;  
+ }
+
+ .tlRestart a {
+  background-color: #0197f6;
+ }
+
+.tlacitkaHra {
+  display: flex;
+  flex-grow: 1;  
+  justify-content: flex-end;
+ 
+}
+ 
+.tlacitkaHra img {
+  filter: invert(0%);
+  border-radius: 5px;
+  margin-left: 0px;
+}
+
+
+.tlHome :hover,
+.tlHome :focus,
+.tlHome :active {
+  background-color: #1cbb96;  
+}
+
+.tlRestart :hover,
+.tlRestart :focus,
+.tlRestart :active {
+  background-color: #0090e9;
+}
+
+
+.mrizka {
+  background-image: linear-gradient(#615dad, #ffc8da);
+  width: 60vmax;
+  /*  height: 60vmax;*/ 
+  height: 60vmax;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  box-shadow: 8px 8px 8px rgb(173, 143, 185);
+}
+
+.okynko {
+  border: 1px solid black;
+  width: 10%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  /* background-color: transparent;  */
+  background-color: transparent;
+}
+
+.okynko:hover,
+.okynko:focus,
+.okynko:active {
+  background: rgba(222, 163, 223, 0.904);
+}
