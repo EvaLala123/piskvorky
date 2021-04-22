@@ -21,7 +21,7 @@ p {
 .kriskros {
   width: 350px;
   margin: 0 auto;
-  box-shadow:  rgb(0 0 0 / 35%) 0px 5px 15px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   background-color: #283e50;
   border-radius: 10px 10px 0 0;
 }
@@ -69,7 +69,6 @@ a {
   background-color: #0090e9;
 }
 
-
 /* CSS pro pravidla.html  */
 
 .pravidlaHry {
@@ -82,10 +81,9 @@ li {
 
 li img {
   filter: invert(100%);
-  width: 1em; 
+  width: 1em;
   height: 1em;
 }
-
 
 .situace img {
   width: 100%;
@@ -100,7 +98,7 @@ figure figcaption {
   margin-top: 8px;
 }
 
-figure  {
+figure {
   margin: 25px 0px;
 }
 
@@ -114,17 +112,17 @@ body {
   }
 
   .situace {
-    display: flex; 
-    flex-wrap: wrap;   
-    justify-content: space-evenly; 
-  } 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 
-  figure {   
-    flex-basis: 45%; 
-    /* flex-basis: calc((100% - 50px) / 2);  jen pro mé info */  
+  figure {
+    flex-basis: 45%;
+    /* flex-basis: calc((100% - 50px) / 2);  jen pro mé info */
     flex-shrink: 1;
     margin: 20px 10px;
-  } 
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -134,27 +132,26 @@ body {
 }
 
 /* CSS pro hru */
-.hra {  
-  max-width: 80vmin;
-  margin: auto;   
+.hra {
+  margin: 0 auto;
 }
 
 .hra h1 {
   text-align: center;
-  width: 100%;
+  margin: 10px auto;
 }
 
 .zahlavi {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;  
-  margin: 20px auto;  
+  align-items: baseline;
+  margin: 20px auto;
   width: 60vmax;
 }
 
 .hraje {
-  height: 2em; 
-  display: flex; 
+  height: 2em;
+  display: flex;
   font-weight: bold;
   font-size: 20px;
 }
@@ -164,45 +161,44 @@ body {
 }
 
 .zahlavi img {
-filter: invert(100%);
-width: 1em; 
-height: 1em;
-display: inline;
-margin-left: 5px;
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
+  display: inline;
+  margin-left: 5px;
 }
 
-.tlacitkaHra a {   
+.tlacitkaHra a {
   margin-left: 15px;
   border-radius: 5px;
-  display: inline;  
+  display: inline;
   padding: 10px;
- }
+}
 
- .tlHome a {
-  background-color: #1fcca4;  
- }
+.tlHome a {
+  background-color: #1fcca4;
+}
 
- .tlRestart a {
+.tlRestart a {
   background-color: #0197f6;
- }
+}
 
 .tlacitkaHra {
   display: flex;
-  flex-grow: 1;  
-  justify-content: flex-end; 
+  flex-grow: 1;
+  justify-content: flex-end;
 }
- 
+
 .tlacitkaHra img {
   filter: invert(0%);
   border-radius: 5px;
   margin-left: 0px;
 }
 
-
 .tlHome :hover,
 .tlHome :focus,
 .tlHome :active {
-  background-color: #1cbb96;  
+  background-color: #1cbb96;
 }
 
 .tlRestart :hover,
@@ -211,15 +207,14 @@ margin-left: 5px;
   background-color: #0090e9;
 }
 
-
 .mrizka {
-  background-color:  rgba(245, 245, 245, 0.4);
+  background-color: rgba(245, 245, 245, 0.4);
   width: 60vmax;
   height: 60vmax;
-  margin: auto;
   display: flex;
-  flex-wrap: wrap;  
-  box-shadow:  rgb(0 0 0 / 35%) 0px 5px 15px;
+  flex-wrap: wrap;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  margin: 0 auto;
 }
 
 .okynko {
@@ -228,7 +223,7 @@ margin-left: 5px;
   width: 10%;
   height: 10%;
   margin: 0;
-  padding: 0;  
+  padding: 0;
   background-color: transparent;
 }
 
