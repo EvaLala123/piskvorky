@@ -225,10 +225,28 @@ body {
   margin: 0;
   padding: 0;
   background-color: transparent;
+  transition: background-size 0.15s;
+  background-size: 0%;
 }
 
 .okynko:hover,
 .okynko:focus,
 .okynko:active {
   background-color: rgba(245, 245, 245, 0.6);
+}
+
+/* CSS pro plnění hry */
+
+.board__field--circle {
+  background-image: url(obrazky/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.board__field--cross {
+  background-image: url(obrazky/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
 }
