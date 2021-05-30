@@ -127,26 +127,35 @@ body {
 
 @media screen and (min-width: 1000px) {
   .kriskros {
-    width: 900px;
+    width: 800px;
+  }
+  .uvod {
+    max-width: 700px;
   }
 }
 
 /* CSS pro hru */
 .hra {
   margin: 0 auto;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.hra h1 {
+.hra {
   text-align: center;
   margin: 10px auto;
+  width: 35vmax;
 }
 
+h1 {
+  flex-basis: 100%;
+}
 .zahlavi {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin: 20px auto;
-  width: 60vmax;
 }
 
 .hraje {
@@ -209,8 +218,8 @@ body {
 
 .mrizka {
   background-color: rgba(245, 245, 245, 0.4);
-  width: 60vmax;
-  height: 60vmax;
+  width: 35vmax;
+  height: 35vmax;
   display: flex;
   flex-wrap: wrap;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
